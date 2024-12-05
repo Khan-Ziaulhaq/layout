@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #252525;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+    width: 625px;
+    justify-content: space-between
+    
+}
+
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 850px;
+    width: 625px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 850px;
+    width: 625px;
+    justify-content: space-between
+}
+
+.image1-container{
+    height: 420px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.image2-container{
+    height: 850px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.description {
+    background-color: #FEE6A6;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.description h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.image-container{
+    display: flex;
+    gap: 10px;
+}
+
+.image3-container{
+    height: 350px;
+    width: 295px;
+    border-radius: 10px;
+}
+
+.form-container{
+    background-color: #FEE6A6;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.form-container h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form label{
+    font-size: 20px;
+    margin: 0px 35px;
+    
+}
+
+.form input{
+    margin: 0px 35px;
+    padding: 8px;
+    width: 500px;
+    border-radius: 8px;
+    background-color: #FEE6A6;
+
+}
+
+.form button{
+    margin: 20px 35px;
+    padding: 8px;
+    width: 520px;
+    border-radius: 15px;
+    background-color: #B15E41;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.form button:hover{
+    background-color: #252525;
+    color: #f8f8f8;
+    transition: all 0.5s ease;
+}
